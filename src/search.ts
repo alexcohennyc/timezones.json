@@ -18,6 +18,13 @@ const IANAForQuery = (query: string) => {
       return 'America/Los_Angeles'
     case 'NY':
       return 'America/New_York'
+      // US states with 1 timezone
+    case 'CA':
+      return 'America/Los_Angeles'
+    case 'New York':
+      return 'America/New_York'
+    case 'MIA':
+      return 'America/New_York'
     default:
       return
   }
